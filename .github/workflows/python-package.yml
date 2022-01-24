@@ -10,7 +10,7 @@ jobs:
 
     strategy:
       matrix:
-        patofrm: [ubuntu-latest, macos-latest,windows-lates]
+        platfroms: [ubuntu-latest, macos-latest,windows-lates]
         python-version: [3.7, 3.8, 3.9]
     runs-on: {{ matrix.platform}}
     steps:
